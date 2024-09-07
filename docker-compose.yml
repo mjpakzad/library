@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    image: goodreads-app:0.0.1
+    build: .
+    command: python3 manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+      - ./goodreads/db.sqlite3:/app/goodreads/db.sqlite3
+    ports:
+      - "8000:8000"
