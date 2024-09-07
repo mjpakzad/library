@@ -1,0 +1,12 @@
+[
+    {
+        "model": "members.user",
+        "pk": 1,
+        "fields": {
+            "email": "work.pakzad@gmail.com",
+            "password": "pbkdf2_sha256$870000$SlWQPaBdYwtEHD0MfcgLYN$Q+kqRonMQzd3CsPyaU6oN1JH+rQqhRHlJ7NX/Pc4gYY=",
+            "last_login": null,
+            "is_active": true
+        }
+    }
+]
