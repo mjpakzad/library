@@ -1,0 +1,21 @@
+[
+  {
+    "model": "books.author",
+    "pk": 1,
+    "fields": {
+      "name": "Mojtaba Pakzad",
+      "biography": "Mojtaba Pakzad is an author of technical and specialized books and often writes in the field of programming and software development."
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "name": "PHP & MySQL: Novice to Ninja: Get Up to Speed With PHP the Easy Way",
+      "content": "PHP & MySQL: Novice to Ninja, 6th Edition is a hands-on guide to learning all the tools, principles, and techniques needed to build a fully functional application using PHP & MySQL. Comprehensively updated to cover PHP 7 and modern best practice, this practical and fun book covers everything from installing PHP and MySQL through to creating a complete online content management system. You'll learn how to: Install PHP & MySQL on Windows, Mac OS X, or Linux Gain a thorough understanding of PHP syntax Use object oriented programming techniques Master database design principles and SQL Develop robust websites that can handle high levels of traffic Build a working content management system (CMS) And much more!",
+      "isbn": "1492065242, 9",
+      "slug": "php-mysql-novice-to-ninja"
+    }
+  }
+]
